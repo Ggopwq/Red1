@@ -1,9 +1,36 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "red_hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
+wait(0.1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "منور السكربت";
+    Text ="red"; -- ARAB TEAM
+    Duration = 5;
+})
+
+
+
+
 local Tab = Window:MakeTab({
 	Name = "الصفحه الرئيسيه",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "حقوق صالح"
+})
+
+
+local Section = Tab:AddSection({
+	Name = "سكربتات مهمه"
+})
+
+
+Tab:AddButton({
+	Name = "سكربت طيران",
+	Callback = function()
+      		
+  	end    
 })
 
