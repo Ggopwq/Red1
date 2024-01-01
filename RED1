@@ -1,5 +1,13 @@
 local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/InfinitiveUI",true))(
-Lib:CreateWindow(name,DefTab,WinSize,function)
-local Win = Lib:CreateWindow("ah",1,nil,nil)
+local Tab,name = Win:CreateTab("Tab "..tostring(i),function() warn(i) end)
 
-for i = 1, 16 do
+Tab:CreateButton("Infinite yield",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",true))()
+	end)
+
+Tab:CreateButton("Console",function()
+	game:GetService("StarterGui"):SetCore("DevConsoleVisible",true)
+	end)
+
+for i = 1, i do
+
