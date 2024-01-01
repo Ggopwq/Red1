@@ -1,6 +1,5 @@
-local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/InfinitiveUI",true))()
---Create Window
---Lib:CreateWindow(name,DefTab,WinSize,function)
+local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/InfinitiveUI",true))(
+Lib:CreateWindow(name,DefTab,WinSize,function)
 local Win = Lib:CreateWindow("ah",1,nil,nil)
 
 for i = 1, 16 do
