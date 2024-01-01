@@ -1,13 +1,2 @@
-local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/InfinitiveUI",true))(
-local Tab,name = Win:CreateTab("Tab "..tostring(i),function() warn(i) end)
-
-Tab:CreateButton("Infinite yield",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",true))()
-	end)
-
-Tab:CreateButton("Console",function()
-	game:GetService("StarterGui"):SetCore("DevConsoleVisible",true)
-	end)
-
-for i = 1, i do
-
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("red", "Default")
