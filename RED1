@@ -1,4 +1,6 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 local window = DrRayLibrary:Load("red", "Default")
 local tab = DrRayLibrary.newTab("الصفحه الرئيسيه", "ImageIdHere")
-
+tab.newButton("سكربت طيران", "Prints Hello!", function()
+    print('')
+end)
