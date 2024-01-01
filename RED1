@@ -1,7 +1,4 @@
-local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
-local window = DrRayLibrary:Load("red", "Default")
-local tab = DrRayLibrary.newTab("الصفحه الرئيسيه", "ImageIdHere")
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "red_hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
-tab.newButton("طيران", "Prints Hello!", function()
-    print('loadstring(game:HttpGet("https://pastebin.com/raw/LweTKcZA"))()')
-end)
+
